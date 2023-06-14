@@ -10,6 +10,9 @@ namespace GitDemo
     {
         static void Main(string[] args)
         {
+            GitDemoClass gitDemoClass = new GitDemoClass();
+            gitDemoClass.DemoMethod();
+            Console.ReadLine();
         }
     }
 }
